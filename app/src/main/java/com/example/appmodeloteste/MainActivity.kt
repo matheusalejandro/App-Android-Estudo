@@ -15,9 +15,11 @@ class MainActivity : AppCompatActivity() {
     fun acaoSair(view: View) {
         //TODO: criar todo
         //FIXME: ação de fix
-        Log.i("INFORMATION", "Log de information")
-        Log.w("WARNING","Log de warning")
-        Log.e("ERROR","Log de erro")
+        Log.i("AppSplash", "Log de information")
+        Log.w("AppSplash","Log de warning")
+        Log.e("AppSplash","Log de erro")
+        Log.d("AppSplash","Log de debug")
+        Log.v("AppSplash": "Log de verbose")
 
 
         Toast.makeText(this, "Sair do app!", Toast.LENGTH_SHORT).show()
